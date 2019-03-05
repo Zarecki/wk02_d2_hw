@@ -8,4 +8,8 @@ class River
     @population = []
   end
 
+  # def fish_count(population)
+  #   population.length
+  #   end
+
 end
