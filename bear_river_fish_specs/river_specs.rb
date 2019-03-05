@@ -6,9 +6,12 @@ require_relative('../fish.rb')
 
 class RiverTest < MiniTest::Test
 
-  def setup()
-    @name = name
-    @population = []
+  def setup
+    @river = ("Euphrates")
+  end
+
+  def test_river_name
+    assert_equal("Euphrates", @river)
   end
 
 end

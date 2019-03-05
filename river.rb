@@ -1,6 +1,7 @@
 class River
 
-  attr_reader :name, :population
+  attr_reader :name
+  attr_accessor :population
 
   def initialize(name)
     @name = name
