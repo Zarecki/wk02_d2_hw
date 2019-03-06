@@ -9,4 +9,17 @@ class Bear
     @stomach = []
   end
 
+  def belly_count
+    return @stomach.count
+  end
+
+  def eat_fish(fish)
+    @stomach << fish
+  end
+
+  #
+  # def eat_fish(fishies)
+  #   fishies[1].push(@stomach)
+  #   fishies.delete_at[1]
+  # end
 end
